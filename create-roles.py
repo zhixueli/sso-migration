@@ -7,7 +7,7 @@ import json
 iam_client = boto3.client('iam')
 
 # 需要配置的参数 - AcountId
-Account_Id = '066198483852'
+Account_Id = '123456789012'
 # 需要配置的参数 - 角色信任策略
 trust_policy = {
     "Version": "2012-10-17",
